@@ -1,1 +1,1 @@
-# Sms-bomber
+pkg install 
