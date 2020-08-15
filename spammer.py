@@ -716,7 +716,7 @@ def main(t):
 		exit()
 	else:
 		logo()
-		print(Style.BRIGHT+Fore.RED+"[!] Не правильный номер пункта."+Style.RESET_ALL)
+		print(Style.BRIGHT+Fore.RED+"[!] НЕЛЬЗЯ НАХУЙ СПАМЕР ОБНОАВИТЬ!."+Style.RESET_ALL)
 		main(1)
 if __name__ == "__main__":
 	main(0)
