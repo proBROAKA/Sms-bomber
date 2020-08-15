@@ -65,7 +65,7 @@ def main(t):
 			email = "{}@gmail.com".format(name)
 		phone9 = phone[1:]
 		logo()
-		print("Телефон: "+Style.BRIGHT+Fore.BLUE+phone+Style.RESET_ALL+"\nСпамер запущен.\nЧтобы остановить - нажмите Ctrl+Z")
+		print("Телефон: "+Style.BRIGHT+Fore.BLUE+phone+Style.RESET_ALL+"\nСпамер запущен нахуй.\nЧтобы остановить - нажмите Ctrl+Z")
 		while True:
 			try:
 				if locale == "RU":
