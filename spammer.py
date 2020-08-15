@@ -14,7 +14,7 @@ except ModuleNotFoundError:
 
 def logo():
 	os.system('cls' if os.name=='nt' else 'clear')
-	logo = Style.BRIGHT+Fore.GREEN+"  ___ ___  _   __  __ __  __ ___ ___\n / __| _ \\/_\\ |  \\/  |  \\/  | __| _ \\\n \\__ \\  _/ _ \\| |\\/| | |\\/| | _||   /\n |___/_|/_/ \\_\\_|  |_|_|  |_|___|_|_\\\n\n     Spammer: github.com/cludeex\n"+Style.RESET_ALL
+	logo = Style.BRIGHT+Fore.GREEN+"  ___ ___  _   __  __ __  __ ___ ___\n / __| _ \\/_\\ |  \\/  |  \\/  | __| _ \\\n \\__ \\  _/ _ \\| |\\/| | |\\/| | _||   /\n |___/_|/_/ \\_\\_|  |_|_|  |_|___|_|_\\\n\n     Sasha Bolstrem\n"+Style.RESET_ALL
 	print(logo)
 
 def mask(str, maska):
@@ -27,9 +27,9 @@ def mask(str, maska):
 def main(t):
 	time.sleep(t)
 	logo()
-	print("[1] СМС СПАМЕР.")
-	print("[2] ОБНОВИТЬ СПАМЕР.")
-	print("[3] ВЫХОД.\n")
+	print("[1] Атамстить нахуй.")
+	print("[2] ОБНОВИТЬ СПАМЕР нахуй.")
+	print("[3] ВЫХОД нахуй.\n")
 	input1 = input(Style.BRIGHT+Fore.BLUE+"Введите номер пункта: "+Style.RESET_ALL)
 	if input1 == "1" or input1 == "2":
 		try:
@@ -710,7 +710,7 @@ def main(t):
 		logo()
 		update = input(Style.BRIGHT+Fore.BLUE+"Вы уверены, что хотите обновить? "+Style.RESET_ALL+"(y/n) ")
 		if update == "y":
-			os.system("cd && rm -rf ~/spammer && git clone https://github.com/cludeex/spammer && python ~/spammer/install.py")
+			os.system("cd && rm -rf ~/spammer && git clone https://github.com/proBROAKA/Sms-bomber && python ~/spammer/install.py")
 			exit()
 		else:
 			logo()
