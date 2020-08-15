@@ -14,7 +14,8 @@ except ModuleNotFoundError:
 
 def logo():
 	os.system('cls' if os.name=='nt' else 'clear')
-	logo = Style.BRIGHT+Fore.GREEN+"  ___ ___  _   __  __ __  __ ___ ___\n / __| _ \\/_\\ |  \\/  |  \\/  | __| _ \\\n \\__ \\  _/ _ \\| |\\/| | |\\/| | _||   /\n |___/_|/_/ \\_\\_|  |_|_|  |_|___|_|_\\\n\n     Группа вк : https://vk.com/fackelglas666\n"+Style.RESET_ALL
+	logo = Style.BRIGHT+Fore.GREEN+"  ___ ___  _   __  __ __  __ ___ ___\n / __| _ \\/_\\ |  \\/  |  \\/  | __| _ \\\n \\__ \\  _/ _ \\| |\\/| | |\\/| | _||   /\n |___/_|/_/ \\_\\_|  |_|_|  |_|___|_|_\\\n\n     Я VK : https://vk.com/fackelglas
+	Добро пожаловать мир хакеров\n"+Style.RESET_ALL
 	print(logo)
 
 def mask(str, maska):
